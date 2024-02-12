@@ -10,7 +10,7 @@ const Sidebar = () => {
       id="blog-sidebar"
       tabIndex="-1"
       aria-labelledby="blog-sidebar"
-      style={{ maxWidth: "340px" }}
+      style={{ maxWidth: "100%" }}
     >
       <div className="offcanvas-header">
         <h5 className="offcanvas-title h4" id="blog-sidebar">

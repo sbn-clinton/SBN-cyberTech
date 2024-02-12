@@ -20,7 +20,7 @@ const FeaturedWorkSection = () => {
   };
 
   return (
-    <section className="my-xl-9 my-5">
+    <section className="my-xl-9 my-5" style={{ width: "100%" }}>
       <Container>
         <Row>
           <Col lg={{ span: 6, offset: 3 }}>
@@ -48,7 +48,7 @@ const FeaturedWorkSection = () => {
                 <Figure className="lift position-relative btn-arrow mb-4">
                   <a href="./portfolio-single.html">
                     <Figure.Image
-                      src="../images/portfolio-img-1.jpg"
+                      src="https://images.unsplash.com/photo-1674027214993-52de23be5a18?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="portfolio-2"
                       fluid
                       rounded
@@ -75,7 +75,7 @@ const FeaturedWorkSection = () => {
                 <Figure className="lift position-relative btn-arrow mb-4">
                   <a href="./portfolio-single.html">
                     <Figure.Image
-                      src="../images/portfolio-img-5.jpg"
+                      src="https://images.unsplash.com/photo-1493497029755-f49c8e9a8bbe?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="portfolio-2"
                       fluid
                       rounded
@@ -104,7 +104,7 @@ const FeaturedWorkSection = () => {
                 <Figure className="lift position-relative btn-arrow mb-4">
                   <a href="./portfolio-single.html">
                     <Figure.Image
-                      src="../images/portfolio-img-4.jpg"
+                      src="https://plus.unsplash.com/premium_photo-1681010317870-44a7ca6f9bee?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="portfolio-2"
                       fluid
                       rounded

@@ -16,12 +16,16 @@ const App = () => {
       <MyNavbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route exact path="/products" element={<Product />} />
-        <Route exact path="/solutions" element={<Solution />} />
-        <Route exact path="/support-services" element={<Support />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/login" element={<LoginForm />} />
-        <Route exact path="/signup" element={<SignUpForm />} />
+        <Route exact path="/SBN-cyberTech/products" element={<Product />} />
+        <Route exact path="/SBN-cyberTech/solutions" element={<Solution />} />
+        <Route
+          exact
+          path="/SBN-cyberTech/support-services"
+          element={<Support />}
+        />
+        <Route exact path="/SBN-cyberTech/about" element={<About />} />
+        <Route exact path="/SBN-cyberTech/login" element={<LoginForm />} />
+        <Route exact path="/SBN-cyberTech/signup" element={<SignUpForm />} />
       </Routes>
       <Footer />
     </Router>

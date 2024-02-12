@@ -10,7 +10,7 @@ const About = () => {
       className="text-secondary bg-black"
       data-bs-theme="dark"
       style={{
-        width: "100%", // Set the width to 100%
+        width: "100vm", // Set the width to 100%
         margin: 0, // Remove default margin
         padding: 0, // Remove default padding
         marginTop: "75px",

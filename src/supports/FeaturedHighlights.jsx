@@ -10,7 +10,7 @@ import {
 
 const FeaturedHighlights = () => {
   return (
-    <Container className="mt-5" style={{ fontFamily: "Roboto" }}>
+    <Container className="mt-5" style={{ fontFamily: "Roboto", width: "100%" }}>
       <Row>
         <Col lg={{ span: 8, offset: 2 }} md={12}>
           <div className="mb-8">

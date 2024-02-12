@@ -4,7 +4,7 @@ import { EyeSlash, Google, Facebook } from "react-bootstrap-icons";
 
 const SignUp = () => {
   return (
-    <div className="wave-container text-black">
+    <div className="wave-container text-black" style={{ width: "100%" }}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"

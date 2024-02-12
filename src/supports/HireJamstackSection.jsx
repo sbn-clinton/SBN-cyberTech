@@ -5,7 +5,7 @@ const HireJamstackSection = () => {
   return (
     <section
       className="pattern-square bg-black  "
-      style={{ fontFamily: "Roboto" }}
+      style={{ fontFamily: "Roboto", width: "100%" }}
     >
       <Container className="position-relative z-1 py-xl-9 py-5">
         <Row>

@@ -66,8 +66,10 @@ const MyNavbar = () => {
       expand="lg"
       expanded={expanded}
       fixed="top"
+      className="px-0"
+      style={{ maxWidth: "100vm", overflowX: "hidden" }}
     >
-      <Container>
+      <Container fluid>
         <Navbar.Brand
           as={Link}
           to="/"
@@ -87,7 +89,7 @@ const MyNavbar = () => {
           <Nav className="ms-auto ml-auto">
             <Nav.Link
               as={Link}
-              to="/products"
+              to="/SBN-cyberTech/products"
               style={{
                 fontFamily: "Roboto",
                 fontWeight: "bold",
@@ -99,7 +101,7 @@ const MyNavbar = () => {
             </Nav.Link>
             <Nav.Link
               as={Link}
-              to="/solutions"
+              to="/SBN-cyberTech/solutions"
               style={{
                 fontFamily: "Roboto",
                 fontWeight: "bold",
@@ -250,7 +252,7 @@ const MyNavbar = () => {
             </Dropdown>
             <Nav.Link
               as={Link}
-              to="/support-services"
+              to="/SBN-cyberTech/support-services"
               style={{
                 fontFamily: "Roboto",
                 fontWeight: "bold",
@@ -262,7 +264,7 @@ const MyNavbar = () => {
             </Nav.Link>
             <Nav.Link
               as={Link}
-              to="/about"
+              to="/SBN-cyberTech/about"
               style={{
                 fontFamily: "Roboto",
                 fontWeight: "bold",
@@ -275,7 +277,7 @@ const MyNavbar = () => {
 
             <Nav.Link
               as={Link}
-              to="/login"
+              to="/SBN-cyberTech/login"
               className="btn bg-info"
               style={{
                 fontFamily: "Roboto",

@@ -16,7 +16,7 @@ const BlogSection = () => {
   });
 
   return (
-    <section className="my-xl-9 my-5">
+    <section className="my-xl-9 my-5" style={{ width: "100%" }}>
       <Container>
         <Row>
           <Col lg={{ span: 6, offset: 3 }} style={customFadeInProps}>

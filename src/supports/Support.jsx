@@ -2,7 +2,6 @@ import React from "react";
 import FeaturedHighlights from "./FeaturedHighlights";
 import HireJamstackSection from "./HireJamstackSection";
 import FeaturedWorkSection from "./FeaturedWorkSection";
-import BlogSection from "./BlogSection";
 import BlogList from "./MySwiperComponent";
 import SignUp from "./SignUp";
 
@@ -12,7 +11,7 @@ const Support = () => {
       className="text-secondary bg-black"
       data-bs-theme="dark"
       style={{
-        width: "100%", // Set the width to 100%
+        maxWidth: "100%", // Set the width to 100%
         margin: 0, // Remove default margin
         padding: 0, // Remove default padding
         marginTop: "75px",
@@ -23,7 +22,6 @@ const Support = () => {
       <FeaturedHighlights />
       <HireJamstackSection />
       <FeaturedWorkSection />
-      <BlogSection />
       <BlogList />
       <SignUp />
     </div>

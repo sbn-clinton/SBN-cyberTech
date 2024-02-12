@@ -11,13 +11,14 @@ import SevenLine from "./Sevenline";
 const Home = () => {
   return (
     <div
+      className="text-secondary bg-black"
+      data-bs-theme="dark"
       style={{
         width: "100%", // Set the width to 100%
         margin: 0, // Remove default margin
         padding: 0, // Remove default padding
         marginTop: "75px",
-        backgroundColor: "black",
-        color: "gray",
+        paddingBottom: "1px",
         fontFamily: "Roboto",
       }}
     >
