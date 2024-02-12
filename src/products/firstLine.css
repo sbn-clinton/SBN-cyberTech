@@ -1,0 +1,53 @@
+/* firstLine.css */
+.bold-text {
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.text-black {
+  color: white;
+}
+/* Make the button rounded */
+.rounded{
+  border-radius: 30px; /* Adjust the desired border-radius */
+}
+
+/* Hide next and previous icons in small screens */
+@media (max-width: 767px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+}
+
+
+/* Reduce the height of the image */
+.carousel-item img {
+  height: 550px; /* Adjust the desired height */
+}
+
+/* Position the carousel caption children at the middle left side of the image */
+.custom-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding: 0 20px;
+}
+
+
+
+.custom-left-caption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  text-align: left;
+  padding-left: 20px; /* Adjust this value as needed */
+}
+
+
+/* Add any additional styles as needed */
+
+

@@ -1,0 +1,12 @@
+
+.check-mark {
+  display: flex;
+  align-items: center;
+}
+
+.check-mark::before {
+  content: '\2713'; /* Unicode checkmark character */
+  color: skyblue;
+  font-size: 15px;
+  margin-right: 10px;
+}

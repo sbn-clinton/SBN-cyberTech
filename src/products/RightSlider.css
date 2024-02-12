@@ -1,0 +1,43 @@
+/* RightSlider.css */
+
+.open-slider-button-container {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%) translateX(80%);
+  padding: 20px;
+  background-color: white;
+  transition: transform 0.3s ease-out;
+  overflow: hidden;
+  z-index: 999;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.open-slider-button-container.show {
+  transform: translateY(-50%) translateX(0%);
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Apply hover effect to icons and underline the link */
+.icon-container:hover .hover-link {
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.icon-container p {
+  margin-left: 10px;
+}
+
+.hover-link {
+  transition: color 0.3s; /* Add transition for smooth color change */
+  color: gray;
+  text-decoration: none; /* Remove default underline */
+}
+
+/* Add any additional styles as needed */

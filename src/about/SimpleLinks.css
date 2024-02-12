@@ -1,0 +1,7 @@
+.slidetitle:hover + .h6 {
+  display: block;
+}
+
+.h6 {
+  display: none;
+}
